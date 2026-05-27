@@ -471,6 +471,60 @@ body{
             }
         }
     }
+    .abs2{
+        max-width: 1536px;
+        margin: auto;
+        padding: 40px 20px;
+        h2{
+            padding-bottom: 20px;
+        }
+        >div{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            gap: 20px;
+            text-align: center;
+            padding: 10px 0;
+            >div{
+                h3{
+                    font-family: var(--font1);
+                    font-size: 20px;
+                }
+                p{
+                    color: var(--vert);
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+    .abs3{
+        background-color: var(--bc);
+        >div{
+            max-width: 1536px;
+            margin: auto;
+            padding: 40px 20px;
+            h2{
+                padding-bottom: 40px;
+            }
+            >div{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                gap: 20px;
+                >div{
+                    justify-self: center;
+                    text-align-last: center;
+                    padding-bottom: 40px;
+                    p{
+                        color: var(--gris3);
+                    }
+                    i{
+                        color: var(--nuit);
+                        font-size: 34px;
+                        padding-bottom: 15px;
+                    }
+                }
+            }           
+        }
+    }
     .cos1{
         background-image: url(../img/pexels-adrien-olichon-1257089-3137068.jpg);
         background-repeat: no-repeat;
