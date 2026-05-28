@@ -437,7 +437,7 @@ body{
             >div{
                 background: var(--nuit);
                 background: linear-gradient(90deg,rgba(42, 31, 26, 0.9) 0%, rgba(42, 31, 26, 0.7) 75%, rgba(42, 31, 26, 0) 100%);
-                padding-top: 40px;
+                padding: 140px 20px;
             >p{
                 color: var(--gris2);
                 font-size: 18px;
@@ -461,7 +461,7 @@ body{
         >div{
             background: var(--nuit);
             background: linear-gradient(90deg,rgba(42, 31, 26, 0.9) 0%, rgba(42, 31, 26, 0.7) 75%, rgba(42, 31, 26, 0) 100%);
-            padding: 40px 20px 40px 20px;
+            padding: 140px 20px 140px 20px;
             div{
                 text-align: center;
                 p{
@@ -533,7 +533,7 @@ body{
         >div{
             background: var(--nuit);
             background: linear-gradient(90deg,rgba(42, 31, 26, 0.9) 0%, rgba(42, 31, 26, 0.7) 75%, rgba(42, 31, 26, 0.3) 100%);
-            padding: 40px 20px 40px 20px;
+            padding: 140px 20px;
             div{
                 text-align: center;
                 p{
