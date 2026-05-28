@@ -68,6 +68,7 @@
             color: var(--vert);
         }
     }
+    /* la c'est la section projets, comme j'ai utilisé le même style pour la page projet j'ai mis le style ici qui s'applique au 2 */
     .divpj{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -121,6 +122,8 @@
         }
     }
 }
+
+/* la c'est le style de chaque partie : */
 
 body{
     background-color: var(--blanc);
@@ -515,6 +518,7 @@ body{
                     padding-bottom: 40px;
                     p{
                         color: var(--gris3);
+                        text-align: center;
                     }
                     i{
                         color: var(--nuit);
@@ -567,7 +571,7 @@ body{
     }
 }
 
-
+/* la c'est le responsive, le mode tablette change rien donc c'est juste le mode tél */
 @media screen and (max-width :767px) {
 
     body{
@@ -645,10 +649,31 @@ body{
                     }
                 }
             }
+            .abs2{
+                >div{
+                    >div{
+                        h3{
+                            font-size: 12px;
+                        }
+                        p{
+                            font-size: 8px;
+                        }
+                    }
+                }
+            }
+            .abs3{
+                >div{
+                    >div{
+                        grid-template-columns: 1fr 1fr;
+                    }
+                }
+            }
         }
     }
 }
 
+
+/* la c'est l'animations des hover, je l'ai trouvé sur un site ressuorce et j'utilise cet effet réguilèrement sur mes projets.  */
 @-moz-keyframes shine {
     0% {
         background-position: -2000px;
